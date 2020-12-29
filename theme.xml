@@ -306,17 +306,11 @@ originally based on: "simple" by nils bonenberger
   <include subset="systemview" name="legacy">./art/systemview/legacyfix.xml</include>
   <view name="screen">
     <text name="clock">
-      <color>777777FF</color>
-      <fontSize>0.035</fontSize>
-      <pos>0.90 0.94</pos>
-      <size>0.09 0.058</size>
-
-      <fontSize verticalScreen="true">0.028</fontSize>
-      <pos verticalScreen="true">0.90 0.012</pos>
-      <size verticalScreen="true">0.09 0.0275</size>
-      <color verticalScreen="true">FFFFFFA0</color>
-
-      <alignment>right</alignment>
+      <origin>0 0</origin>
+      <pos>0.75 0.03</pos>
+      <size>0.1666666666666667 0.03125</size>
+      <fontSize>0.045</fontSize>
+      <alignment>left</alignment>
       <verticalAlignment>center</verticalAlignment>
     </text>
     
